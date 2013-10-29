@@ -29,12 +29,14 @@ main#page_content div.hero img.main { border: 10px solid #401502; border-bottom-
 main#page_content div.hero img.tag { left: 10px; position: absolute; top: 0px; z-index: 10; }
 main#page_content div.hero img.tag2 { left: 0px; position: absolute; top: 0px; z-index: 10; }
 main#page_content div.hero.home img { border: none; width: 100%; }
-main#page_content article { position: relative; }
+main#page_content article { position: relative; padding: 0px 0px 20px 35px; }
 main#page_content article header h1 { font-family: "TradeGothicW01-BoldExte"; font-size: 18px; font-weight: normal; text-transform: uppercase; }
 main#page_content article p { color: #FFF; font-size: 11pt; line-height:1.2; margin: 5px 0px 20px; width: 60%; }
 main#page_content article a:link { background-color: #F7A08F; color: #401502; font-family: "TradeGothicW01-BoldExte"; font-size: 12px; font-weight: bold; padding: 8px; text-transform: uppercase; }
 
+
 main#page_content article section { display: inline-block; margin: 0px; padding: 0px 20px 0px 0px; vertical-align: top; width: 45%; }
+main#page_content article.press { padding-left: 0px; }
 main#page_content article section header { width: 100%; }
 main#page_content article section p { margin: 0px 0px 15px; width: 100%; }
 main#page_content article section img { margin: 0px 0px 10px; }
@@ -43,6 +45,11 @@ main#page_content article section div.address { font-family: "Frutiger LT W01 65
 main#page_content article section div.contact-form div { padding: 10px 0px; }
 main#page_content article section div.contact-form div input[type="text"] { font-weight: bold; width: 250px; }
 main#page_content article section a:link {background-color: transparent; }
+
+main#page_content article section span.panel_column span.panel #slider { padding: 0px 0px 0px 20px; }
+main#page_content article section span.panel_column span.panel img.button-previous, main#page_content article section span.panel_column span.panel img.button-next { cursor: pointer; display: inline; float: right; position: relative; z-index: 2; top: -35px; }
+main#page_content article section span.panel_column span.panel img.button-next { padding-right: 150px; }
+
 
 /* Home Page Panels */
 main#page_content div.panels { text-align: center; width: 100%; }
@@ -64,7 +71,7 @@ main#page_content div.panels span.panel_column span.panel.nowood h1 { background
 /* Footer Specifics */
 footer { font-size: 10pt; }
 footer div { text-align: center; text-transform: uppercase; }
-footer div.logos { padding: 10px 0px; }
+footer div.logos { padding: 20px 0px; }
 footer div.logos span { padding: 0px 20px; }
 footer nav { padding: 10px 0px; text-align: center; }
 footer nav span { padding: 0px 10px; text-transform: uppercase; }
