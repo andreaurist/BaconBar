@@ -36,12 +36,12 @@
                 button: "#foo2_next",
                 key: "right"
             },
-            pagination: "#foo2_pag"
+            pagination: {
+				container: "#foo2_pag",	
+			}
         });
-
-        jQuery("div.image_carousel div#foo2 img").changeHero();
+       jQuery("div.image_carousel div#foo2 img").changeHero();
     }
-
     modernizr();
 });
 
