@@ -8,6 +8,7 @@ Partial Public Class api_api
         Public firstName As String
         Public lastName As String
         Public email As String
+        Public zip As String
     End Structure
     Private Structure CateringData
         Public name As String
@@ -25,7 +26,7 @@ Partial Public Class api_api
         If usersFoundWithEmailAddress.Count > 0 Then
             rtnVal("Message") = "existed"
         Else
-            ASDCUser2.EnterNewEmail(extractedFromObject.firstName, extractedFromObject.lastName, extractedFromObject.email)
+            ASDCUser2.EnterNewEmail(extractedFromObject.firstName, extractedFromObject.lastName, extractedFromObject.email, extractedFromObject.zip)
             rtnVal("Message") = "completed"
         End If
 
@@ -38,7 +39,7 @@ Partial Public Class api_api
         Dim objEmail As New MailMessage()
         Dim objSMTP As New SmtpClient()
 
-        objEmail.[To].Add("brian.katchmar@denihan.com")
+        objEmail.[To].Add("orders@burkesbaconbar.com")
         objEmail.From = New MailAddress("primehouse@jameshotels.com")
         objEmail.Subject = "Bacon Bar Catering Form Submission"
         objEmail.Body = "<div>Name: " & extractedFromObject.name & "</div><div>Phone: " & extractedFromObject.phone & "</div><div>Email: " & extractedFromObject.email & "</div>"
@@ -59,6 +60,7 @@ Partial Public Class api_api
         processed.firstName = userData.GetValues("requestFirstName")(0)
         processed.lastName = userData.GetValues("requestLastName")(0)
         processed.email = userData.GetValues("requestEmail")(0)
+        processed.zip = userData.GetValues("requestZip")(0)
         Return processed
     End Function
 
