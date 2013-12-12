@@ -59,6 +59,8 @@ main#page_content article div.normal-link { padding: 10px 0px; }
 main#page_content article div.normal-link>div { padding: 5px 10px; }
 main#page_content article div.normal-link>div a { color: #FFF; }
 
+main#page_content article section a.menu-pdf-link { background-color: transparent; }
+
 /* Home Page Panels */
 main#page_content div.panels { text-align: center; width: 100%; padding: 0px 0px 0px 5px; }
 main#page_content div.panels span.panel_column { display: inline-block; margin: 0px; padding: 0px; vertical-align: top; width: 33%; }
@@ -86,6 +88,7 @@ footer div.logos { padding: 20px 0px; }
 footer div.logos span { padding: 0px 20px; }
 footer nav { padding: 10px 0px; text-align: center; }
 footer nav span { padding: 0px 10px; text-transform: uppercase; }
+footer div.copyright { padding: 0px 0px 15px; }
 
 /* Form Styling */
 div.form-lightbox { cursor: pointer; display: none; filter: alpha(opacity=0); opacity: 0; } /* Opacity */
@@ -131,9 +134,4 @@ background: -ms-linear-gradient(top, rgba(147,65,50,1) 0%,rgba(197,115,100,1) 10
 background: linear-gradient(to bottom, rgba(147,65,50,1) 0%,rgba(197,115,100,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#934132', endColorstr='#c57364',GradientType=0 ); /* IE6-9 */
 }
-main#page_content div.hero div.giftcard img { padding: 30px 0px 35px 0px;  } 
-
-
-
-
-
+main#page_content div.hero div.giftcard img { padding: 78px 0px 0px 0px;  } 

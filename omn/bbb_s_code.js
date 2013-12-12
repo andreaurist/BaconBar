@@ -4,18 +4,16 @@
  * Denihan Hospitality Group main site
 */
 
-var s_account = (typeof s_account != 'undefined') ? s_account : 'dhgdenihan';
-
+var s_account = (typeof s_account != 'undefined') ? s_account : 'dhgbaconbar';
 
 // Config:
 var denOmn = {
-
 	// JS Requirements:
 	'globalUrl':				'http://www.denihan.com/omn/glo_s_code.js',
 	'globalSecureUrl':			'https://www.denihan.com/omn/glo_s_code.js',
-	'siteCode':					'den',
-	'lastLocalUpate':			'09.13.2011',
-    'server':                   'www.denihan.com',
+	'siteCode':					'bbb',
+	'lastLocalUpate':			'12.10.2013',
+	'server':                   'www.burkesbaconbar.com',
 	// Last edit: ROIL|PCL
 	
 	// Global Config Overwrite:
