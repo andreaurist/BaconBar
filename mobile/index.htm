@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bacon Bar Mobile Page</title>
+    <title>Bacon Restaurant in Chicago, Illinois: Burke's Bacon Bar</title>
     <link rel="Stylesheet" href="../css/mobile/baconbar-mobile.css" />
     <script type="text/javascript" src="http://fast.fonts.net/jsapi/78d4a85e-bd09-425e-b7d2-2d919c1c20e0.js"></script>
 </head>
@@ -16,8 +16,12 @@
             <span>312-660-7200</span>
         </div>
         <div class="hero">
-            <div class="gallery">
-                <img src="../img/gallery/mobile/jchi-burkes-bacon-bar-pic.jpg" alt="Gallery Image 1" />
+            <div id="galleria"" class="gallery">
+                <img src="../img/gallery/mobile/1.jpg" alt="Bacon Bar" data-title="Bacon Bar" data-description="Bacon Bar" />
+                <img src="../img/gallery/mobile/2.jpg" alt="Bacon Bar" data-title="Bacon Bar" data-description="Bacon Bar" />
+                <img src="../img/gallery/mobile/3.jpg" alt="Bacon Bar" data-title="Bacon Bar" data-description="Bacon Bar" />
+                <img src="../img/gallery/mobile/4.jpg" alt="Bacon Cheddar" data-title="Bacon Cheddar" data-description="Bacon Cheddar" />
+                <img src="../img/gallery/mobile/6.jpg" alt="Duck" data-title="Duck" data-description="Duck" />
             </div>
         </div>
         <div class="specials-container">
@@ -88,23 +92,7 @@
                 <img src="../img/gallery/controls/feed-left-arrow.gif" alt="left arrow" class="button-previous" />
             </div>
             <span id="slider-wrapper">
-                <span id="slider">
-                    <span class="sp">
-                        <img src="../img/gallery/feed1.jpg" alt="Food" class="gallery_image" />
-                    </span>
-                    <span class="sp">
-                        <img src="../img/gallery/feed2.jpg" alt="Food" class="gallery_image" />
-                    </span>
-                    <span class="sp">
-                        <img src="../img/gallery/feed3.jpg" alt="Food" class="gallery_image" />
-                    </span>
-                    <span class="sp">
-                        <img src="../img/gallery/feed4.jpg" alt="Food" class="gallery_image" />
-                    </span>
-                    <span class="sp">
-                        <img src="../img/gallery/feed5.jpg" alt="Food" class="gallery_image" />
-                    </span>
-                </span>
+                <span id="slider"></span>
             </span>
         </div>
     </div>
@@ -118,11 +106,14 @@
 
     <script src="../js/jquery-1.7.2.min.js"></script>
     <script src="../js/denihan.baconbar.utils.js"></script>
-    <script src="../js/denihan.gallery.tiled.js"></script>
     <script src="../js/denihan.baconbar.contact.form.js"></script>
+    <script src="../js/mobile/galleria/galleria-1.2.9.min.js"></script>
+    <script src="../js/mobile/galleria/denihanSlideGallery.js"></script>
     <script src="../js/mobile/denihan.baconbar.page.load.mobile.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script> 
     <script src="../js/gmap3.js"></script>
     <script src="../js/mobile/callgmap.js"></script>
+    <script src="../js/denihan.instagram.feed.js"></script>
+    <script src="../js/mobile/denihan.instagram.feed.load.mobile.js"></script>
 </body>
 </html>
